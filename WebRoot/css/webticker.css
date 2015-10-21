@@ -1,0 +1,93 @@
+/* liScroll styles */
+
+/*.tickeroverlay-left{
+        background-image:url('../img/banner_left.png');
+        display:block;
+        float:left;
+        height:127px ;
+        background-repeat:no-repeat;
+        pointer-events:none;
+        position:absolute;
+        z-index:30;
+        width:150px;
+        top:0;
+        left:-4px;
+}
+        
+.tickeroverlay-right{
+        background-image:url('../img/banner_right.png');
+        display:block;
+        float:right;
+        height:127px ;
+        background-repeat:no-repeat;
+        pointer-events:none;
+        position:absolute;
+        z-index:30;
+        width:20px;
+        top:0;
+        right:-4px;
+}*/
+
+.tickercontainer { /* the outer div */
+    /*background: #7a7a7a;*/ 
+    color: white;
+    width: 1200px; 
+    height: 127px; 
+    margin: 0; 
+    padding: 0;
+    overflow: hidden; 
+}
+
+/*that serves as a mask. so you get a sort of padding both left and right*/ 
+
+/*.tickercontainer .mask {  
+position: relative;
+padding-left: 10px;
+padding-right: 10px;
+top: -2px;
+height: 130px;
+width: 1200;
+overflow: hidden;
+}*/
+
+ul.newsticker { /* that's your list */
+    position: relative;
+    margin-left: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.newsticker li {
+    float: left; /* important: display inline gives incorrect results when you check for elem's width */
+    margin: 0;
+    padding-top: 12px; /**/
+    padding-right: 40px;
+    /*background: #ccc;*/
+    text-align: center;
+}
+
+ul.newsticker a {
+    white-space: nowrap;
+    padding: 0;
+    color: #ff0000;
+    font: bold 10px Verdana;
+    margin: 0 50px 0 0;
+    text-align: center;
+} 
+
+ul.newsticker span {
+    margin: 0 10px 0 0;
+    text-align: center;
+} 
+
+#webticker2{
+    float:right;    
+}
+
+#webticker2 li {
+    float: right; /* important: display inline gives incorrect results when you check for elem's width */
+    margin: 0;
+    padding-left: 15px;
+    background: #fff;
+}

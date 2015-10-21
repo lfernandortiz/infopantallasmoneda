@@ -1,0 +1,670 @@
+root {
+	display: block;
+}
+
+/*Reset*/
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img, tr, td {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Etiquetas*/
+body {
+	background: url(../img/bg_tile.jpg);
+	
+	/* background: url(../img/louvre.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat: no-repeat; */
+	
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.homediv {
+	padding-top: 150px;
+	width: 800px;
+	margin: 0 auto;
+	/* border: solid 1px #33ff33; */
+}
+
+/*Clases*/
+.container {
+	/*    background-color: #003333;*/
+	padding-top: 7px;
+	width: 1200px;
+	height: 710px;
+	margin: 0 auto;
+}
+
+.colright {
+	width: 690px;
+}
+
+.colrightHora { /*alineacion horizontal del texto*/
+	font-size: 18px;
+	color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	text-align: right; /*alineacion horizontal del texto*/
+	vertical-align: bottom; /*alineacion vertical del texto*/
+	border-collapse: collapse;
+	width: 690px;
+}
+
+.colmedio {
+	width: 40px;
+}
+
+.colleft {
+	width: 470px;
+}
+
+.rowHead {
+	height: 80px;
+}
+
+.rowheadMedio {
+	height: 8px;
+}
+
+.rowTickerDolar {
+	height: 122px;
+}
+
+.rowDolarParalelo {
+	height: 252px;
+}
+
+.rowIntermedio {
+	height: 10px;
+}
+
+.rowTickerEuro {
+	height: 0px;
+}
+
+.rowDolarCol {
+	height: 160px
+}
+
+.tituloDiv {
+	height: 40px;
+	display: block;
+	font: bold 20px Verdana;
+	color: #ffffff;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	/*top right botton left*/
+	padding: 8px 10% 10px 8px;
+	vertical-align: top;
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px #33ff33;*/
+}
+
+.trmrate {
+	font: bold 70px Verdana;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+}
+
+.title {
+	display: block;
+	font: bold 19px Verdana;
+	color: #ffffff;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	border-bottom: #666666 solid 1px;
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px #33ff33;*/
+}
+
+.tituloDivp {
+	height: 40px;
+	display: block;
+	font: bold 14px Verdana;
+	color: #ffffff;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	/*top right botton left*/
+	padding: 8px 0px 10px 15px;
+	vertical-align: top;
+	display: block;
+	/*este borde lo uso para controlar el layout*/
+	border: solid 1px #ff0000;
+}
+
+.dolarTodayRate {
+	height: 252px;
+	background-image: url(../img/back_dolargrande.png);
+	display: block;
+	margin: auto;
+	background-repeat: repeat;
+	width: 470px;
+	padding: 0px;
+	font: bold 30px Verdana;
+	/*borde del contenedor*/
+	border-radius: 5px;
+	box-shadow: inset 0 0 1px #ccc;
+	-o-box-shadow: inset 0 0 1px #ccc;
+	-webkit-box-shadow: inset 0 0 1px #ccc;
+	-moz-box-shadow: inset 0 0 1px #ccc;
+}
+
+.trmbody {
+	width: 690px;
+	height: 252px;
+	background-image: url(../img/back_dolargrande.png);
+	display: block;
+	margin: auto;
+	background-repeat: repeat;
+	padding: 0px;
+	font: bold 30px Verdana;
+	/*borde del contenedor*/
+	border-radius: 5px;
+	box-shadow: inset 0 0 1px #ccc;
+	-o-box-shadow: inset 0 0 1px #ccc;
+	-webkit-box-shadow: inset 0 0 1px #ccc;
+	-moz-box-shadow: inset 0 0 1px #ccc;
+}
+
+.factor {
+	height: 150px;
+	width: 470px;
+	background-image: url(../img/back_dolargrande.png);
+	display: block;
+	margin: auto;
+	background-repeat: repeat;
+	padding: 0px;
+	/*borde del contenedor*/
+	border-radius: 5px;
+	box-shadow: inset 0 0 1px #ccc;
+	-o-box-shadow: inset 0 0 1px #ccc;
+	-webkit-box-shadow: inset 0 0 1px #ccc;
+	-moz-box-shadow: inset 0 0 1px #ccc;
+}
+
+.bolivar {
+	height: 150px;
+	width: 690px;
+	background-image: url(../img/back_dolargrande.png);
+	display: block;
+	margin: auto;
+	background-repeat: repeat;
+	padding: 0px;
+	/*borde del contenedor*/
+	border-radius: 5px;
+	box-shadow: inset 0 0 1px #ccc;
+	-o-box-shadow: inset 0 0 1px #ccc;
+	-webkit-box-shadow: inset 0 0 1px #ccc;
+	-moz-box-shadow: inset 0 0 1px #ccc;
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px  #ffcc00;*/
+}
+
+.tableclass {
+	width: 100%;
+	border-collapse: collapse;
+	/*top right botton left*/
+	vertical-align: middle;
+}
+
+.tableclassbolivar {
+	width: 100%;
+	/*border-collapse: collapse;*/
+	/*top right botton left*/
+	vertical-align: middle;
+}
+
+.tableclass {
+	width: 100%;
+	/*top right botton left*/
+	vertical-align: middle;
+}
+
+.tableclass tr {
+	background-image: url(../img/horizontal_line.gif);
+	background-position: 100% 0px;
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*top right botton left*/
+	padding: 8px 0px 15px 0px;
+}
+
+.tableclassbolivar tr {
+	background-image: url(../img/horizontal_line.gif);
+	background-position: 100% 0px;
+	vertical-align: central;
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*top right botton left*/
+	padding: 8px 0px 15px 0px;
+}
+
+.divtable2 {
+	background-image: url(../img/vertical_line.gif);
+	background-position: 99% 4px;
+	background-repeat: no-repeat;
+}
+
+.tableclass td {
+	/*top right botton left*/
+	padding: 8px 0px 15px 0px;
+}
+
+.tableclass th {
+	/*top right botton left*/
+	padding: 2px 0px 3px 0px;
+}
+
+.euro {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	/*border-collapse: collapse;*/
+	border-spacing: 0;
+	/* border: #cc0099 solid 1px; */
+}
+
+.euro td {
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+
+.row1 {
+	background: #333333;
+}
+
+.row2 {
+	
+}
+
+.preciobolivar {
+	text-align: right;
+	color: #ffffff;
+	font: bold 37px Verdana;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+}
+
+/*ID's*/
+#logo {
+	width: 472px;
+	height: 75px;
+}
+
+#logo img {
+	width: 175px;
+	height: 78px;
+}
+
+#dolarleft {
+	height: 170px;
+	float: left;
+	width: 65%;
+	/*top right botton left*/
+	padding: 30px 0px 0px 20px;
+	color: #ffffff;
+	font: bold 70px Verdana;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	background-image: url(../img/vertical_line.gif);
+	background-position: 99% 4px;
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px aqua;*/
+}
+
+#dolarDif {
+	margin-left: 308px;
+	height: 80px;
+	position: relative;
+	color: #ffffff;
+	font: bold 40px Verdana;
+	vertical-align: middle;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	/*top right botton left*/
+	padding: 0px 0px 0px 22px;
+
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px #ff0000;*/
+}
+
+#dolarSymbol {
+	margin-left: 308px;
+	height: 89px;
+	position: relative;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	/*top right botton left*/
+	padding: 15px 0px 0px 40px;
+
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px #ff0000;*/
+}
+
+#footerleft {
+	height: 40px;
+	float: left;
+	width: 240px;
+	color: #ffffff;
+	font: 12px Arial;
+	/*top right botton left*/
+	padding: 10px 0px 0px 10px;
+	vertical-align: middle;
+
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px #ff0000;*/
+}
+
+#footerrigth {
+	height: 40px;
+	float: right;
+	width: 230px;
+	color: #ffffff;
+	font: 10px Arial;
+	text-align: right;
+	/*top right botton left*/
+	padding: 0px 3px 0px 5px;
+	vertical-align: middle;
+
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px #ff0000;*/
+}
+
+#footer {
+	height: 40px;
+	float: right;
+	width: 100%;
+	color: #ffcc00;
+	font: 11px Arial;
+	text-align: left;
+	/*top right botton left*/
+	padding: 1px 0px 0px 0px;
+	vertical-align: middle;
+
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px #ff0000;*/
+}
+
+#central {
+	alignment-adjust: center;
+	padding: 0px;
+	vertical-align: central;
+	border: 0px;
+	padding-right: 2px;
+}
+
+#factorbody {
+	height: 120px;
+	float: left;
+	width: 100%;
+	/*top right botton left*/
+	padding: 8px 8px 0px 8px;
+	color: #ffffff;
+	/*border-right: 1px solid gray;*/
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px aqua;*/
+}
+
+#factorbodybolivar {
+	height: 115px;
+	float: left;
+	width: 110%;
+	display: block;
+	vertical-align: bottom;
+	/*top right botton left*/
+	padding: 8px 8px 0px 5px;
+	/*formato texto */
+	color: #ffffff;
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px aqua;*/
+}
+
+#tituloFactor {
+	/*top right botton left*/
+	padding: 0px 0px 0px 0px;
+	color: #ffffff;
+	font: 16px Arial;
+	padding: 0px;
+}
+
+#tituloBolivar {
+	/*top right botton left*/
+	padding: 5px 0px 0px 0px;
+	color: #ffffff;
+	font: 19px Arial;
+	padding: 0px;
+}
+
+#titulosbolivar {
+	/*top right botton left*/
+	padding: 5px 0px 0px 0px;
+	color: #ffffff;
+	font: 20px Arial;
+	padding: 0px;
+}
+
+#bodyFactor {
+	color: #ffffff;
+	font: 23px Arial;
+	padding: 0px;
+}
+
+#tablebolivar {
+	border-spacing: 0px;
+}
+
+#difcambiomas {
+	/*top right botton left*/
+	padding: 3x 0px 0px 12px;
+	color: #00ff00;
+	font-size: 33px;
+	text-align: left;
+}
+
+#difcambiomenos {
+	/*top right botton left*/
+	padding: 3x 0px 0px 12px;
+	color: #ff0000;
+	font-size: 33px;
+	text-align: left;
+}
+
+#difcambiomasE {
+	/*top right botton left*/
+	padding: 0x 0px 0px 10px;
+	color: #00ff00;
+	font-size: 18px;
+	text-align: left;
+}
+
+#difcambiomenosE {
+	/*top right botton left*/
+	padding: 0x 0px 0px 10px;
+	color: #ff0000;
+	font-size: 18px;
+	text-align: left;
+}
+
+#trmright {
+	width: 43%;
+	height: 252px;
+	float: right;
+	/*background-image: url(../img/vertical_line.gif);*/
+	background-position: 99% 4px;
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px #ff0000;*/
+}
+
+#trmleft {
+	width: 57%;
+	height: 252px;
+	float: left;
+	background-image: url(../img/vertical_line.gif);
+	background-position: 99% 4px;
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*este borde lo uso para controlar el layout*/
+	/* border: solid 1px aqua; */
+}
+
+/*verde rate 00ff33*/
+#trminfo {
+	width: 100%;
+	height: 212px;
+	color: #ffffff;
+	font: bold 19px Verdana;
+	/*top right botton left*/
+	padding: 0px 4px 0px 8px;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	/*este borde lo uso para controlar el layout*/
+	/* border: solid 1px #00ff00; */
+}
+
+#trmcol {
+	width: 100%;
+	height: 212px;
+	color: #ffffff;
+	font: 19px Verdana;
+	/*top right botton left*/
+	padding: 35px 12px 0px 8px;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	/*este borde lo uso para controlar el layout*/
+	 /* border: solid 1px #ff00cc;  */
+}
+
+#dolartrm {
+	text-align: right;
+	color: #ffffff;
+	font: bold 47px Verdana;
+	line-height: 1em;
+	/*top right botton left*/
+	padding: 0px 5px 0px 8px;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+	/*border: solid 1px #ff00cc;*/
+}
+
+#dolartrm2 {
+	text-align: left;
+	color: #ffffff;
+	font: bold 14px Verdana;
+	line-height: 1.2em;
+	vertical-align: middle;
+	/*top right botton left*/
+	padding: 0px 5px 0px 8px;
+	/*text-shadow: 0.06em 0.06em 0.01em #000000;*/
+	/*border: solid 1px #ff00cc;*/
+}
+
+.imgWarnin {
+	alignment-adjust: center;
+	vertical-align: middle;
+	/*top right botton left*/
+	padding: 0px 5px 0px 0px;
+	float: left;
+	border: 0px;
+	padding-right: 0px;
+}
+
+#trmdif {
+	text-align: right;
+	vertical-align: central;
+	color: #ffffff;
+	font: bold 28px Verdana;
+	/*top right botton left*/
+	padding: 0px 5px 0px 8px;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+}
+
+#rateimg {
+	width: 100%;
+	text-align: right;
+	/*top right botton left*/
+	padding: 5px 0px 0px 0px;
+}
+
+#rateimgBol {
+	text-align: left;
+	width: 31px;
+	/*top right botton left*/
+	padding: 5px 0px 0px 0px;
+	border-collapse: collapse;
+}
+
+#tableeuro {
+	width: 100%;
+	/*top right botton left*/
+	padding: 10px 8px 5px 2px;
+	/*este borde lo uso para controlar el layout*/
+	/*border: solid 1px  #ffff00;*/
+}
+
+#nombretasa {
+	text-align: left;
+	color: #ffffff;
+	font: bold 21px Verdana;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+}
+
+#valortasa {
+	/*top right botton left*/
+	padding: 0px 0px 0px 8px;
+	text-align: right;
+	color: #ffffff;
+	font: bold 30px Verdana;
+	text-shadow: 0.06em 0.06em 0.01em #000000;
+}
+
+#simbolo {
+	width: 100%;
+	/*top right botton left*/
+	padding: 0px 0px 0px 2px;
+	border-collapse: collapse;
+}
+
+#difEuroMas {
+	/*top right botton left*/
+	padding: 0px 0px 0px 2px;
+	text-align: right;
+	color: #ffffff;
+	font: 18px Verdana;
+}
+
+#difBolivar {
+	/*top right botton left*/
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	color: #ffffff;
+	text-shadow: 0.07em 0.07em 0.01em #000000;
+	font: 20px Verdana;
+	alignment-adjust: central;
+	border-collapse: collapse;
+}
+
+/*Elimina el el padding y border de los elementos a 
+los que se le aplique esta propieada*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
