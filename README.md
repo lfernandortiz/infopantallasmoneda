@@ -4,4 +4,5 @@
 </p>
 
 Aplicacion de informacion financieras desplegada en pantallas de informacion. Los Datos son tomados de los servicios web WSDL de la superfinaniera, y activos financieros informales de 
-DolarToday
+DolarToday.
+Desarrollado en JSP, JSTL, EL, Servicios Rest con Gson Library de Google
